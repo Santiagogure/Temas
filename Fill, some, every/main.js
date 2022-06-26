@@ -62,3 +62,16 @@ const myArray = new Array(20).fill(0);   //Ahora tendremos 20 elementos con el v
   console.log(sonPares2) //Este devuelve true
 
     
+// Assing:
+   //  copia todas las propiedades 
+   // enumerables de uno o más objetos fuente a un objeto destino. Devuelve el objeto destino. 
+
+var Santiago = {name: "Santiago"}
+var last_name = {last_name: "Gurevich"};
+var age = {age: 21}
+
+const miNombre = Object.assign(Santiago, last_name, age, {teacher: "Mrs Waters"});
+console.log(miNombre)
+
+
+//
