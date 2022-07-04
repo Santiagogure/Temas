@@ -4,6 +4,12 @@
 //Para comparar los parametros, Sort espera dos parametros. 
 
 const numbers = [2, 4, 6, 8]
+
+numbers.sort((a, b) =>{
+ return -1 // De esta forma lo retornamos desde el final hasta el inicio
+})
+
+
 numbers.sort(() => Math.random()- 0.5) // De esta forma lo retornamos de mayor a menor
 
 
