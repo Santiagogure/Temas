@@ -38,7 +38,7 @@ const myArray = new Array(20).fill(0);   //Ahora tendremos 20 elementos con el v
   console.log(anyAdult) //Nos devuelve true porque Fabian y Edu tienen mas de 18
 
 //Every:
-  //Su funcion es parecida a some, nos permite verificar bajo una condicion
+  //Su funcion es parecida a some pero con todos los elementos de un array. Nos permite verificar bajo una condicion
 
   const array1 = [1, 2 ,3 ,4]
   const array2 = [2, 2, 4, 4]
